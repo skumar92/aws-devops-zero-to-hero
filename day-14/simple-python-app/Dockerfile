@@ -4,7 +4,7 @@ FROM python:3.8
 # Set the working directory inside the container
 WORKDIR /app
 
-# Copy the requirements file
+# Copy the requirents file
 COPY requirements.txt .
 
 # Install the project dependencies
